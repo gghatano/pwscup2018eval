@@ -4,9 +4,13 @@ PWSCUP2018 評価用docker環境
 
 ## 使いかた
 
-- docker, docker-composeをインストールする
-- ./data に、R.csvとT.csvを配置する
-- コンテナを起動する
+- ローカル環境で、dockerとdocker-composeを使えるようにする
+- 適当な場所で、本レポジトリをcloneする
+```bash
+$ git clone https://github.com/gghatano/pwscup2018eval
+```
+- ./data に、評価に利用するR.csvとT.csvを配置する
+- docker-composeコマンドで、コンテナを起動する
 ```bash
 $ docker-compose up -d
 ``` 
