@@ -1,4 +1,4 @@
-[作成中]PWSCUP2018 評価用docker環境
+PWSCUP2018 評価用docker環境
 ===
 
 ## 使いかた
@@ -9,7 +9,7 @@
 ```bash
 $ git clone https://github.com/gghatano/pwscup2018eval
 ```
-3. dataディレクトリに、評価したいA.csvとR.csvを配置する
+3. dataディレクトリに、評価したいA.csv(既に置いてあったら置き換える)とR.csvを配置する
 4. docker-composeコマンドで、コンテナを起動する
 ```bash
 $ docker-compose up -d
@@ -26,7 +26,7 @@ $ bash ./eval.bash
 ```bash
 $ git clone https://github.com/gghatano/pwscup2018eval
 ```
-3. dataディレクトリに、評価したいA.csvと、加工前のトランザクションT.csvを配置する
+3. dataディレクトリに、評価したいA.csv(既に置いてあったら置き換える)と、加工前のトランザクションT.csvを配置する
 
 4. check.bashを実行して、評価する
 ```bash
@@ -40,7 +40,5 @@ pwscupadmin@pwscup.com
 https://twitter.com/PWScup_Admin
 
 ## ToDo
-- テスト
- - Uの意味 T.csvをAとして配置しているけど、0にならない？
 - スクリプトの内容説明
 - 自作評価関数のインターフェース定義と、配置方法の説明
