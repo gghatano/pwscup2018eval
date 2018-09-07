@@ -1,4 +1,4 @@
-PWSCUP2018 評価用docker環境
+[作成中]PWSCUP2018 評価用docker環境
 ===
 
 ## 使いかた
@@ -41,4 +41,7 @@ https://twitter.com/PWScup_Admin
 
 ## ToDo
 
+- テスト
+ - Uの意味 T.csvをAとして配置しているけど、0にならない？
+- スクリプトの内容説明
 - フォーマットチェッカの動作環境作成
