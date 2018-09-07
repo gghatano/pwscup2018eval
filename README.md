@@ -40,5 +40,5 @@ pwscupadmin@pwscup.com
 https://twitter.com/PWScup_Admin
 
 ## ToDo
-
-- フォーマットチェッカの動作環境作成
+- 運営による動作テスト
+- 自作評価関数のインターフェース定義と、配置方法の説明
