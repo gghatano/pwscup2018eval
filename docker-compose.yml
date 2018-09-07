@@ -2,8 +2,8 @@ version: '3'
 
 services:
  pwscup2018sample:
-  image: pwscupadmin/pwscup2018sample:0.3
+  image: pwscupadmin/pwscup2018sample:0.4
   volumes:
-   - ./data:/pwscup2018-sample/drill/data
+   - ./data:/pwscup2018sample/drill/data
   tty: true
   container_name: pwscup2018sample
