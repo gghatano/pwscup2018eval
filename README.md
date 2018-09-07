@@ -8,7 +8,7 @@ PWSCUP2018 評価用docker環境
 ```bash
 $ git clone https://github.com/gghatano/pwscup2018eval
 ```
-3. dataディレクトリに、評価したいT.csvとR.csvを配置する(既に未加工のT.csvが配置してあるので、置き換える)
+3. dataディレクトリに、評価したいA.csvとR.csvを配置する(既に未加工のT.csvが配置してあるので、置き換える)
 4. docker-composeコマンドで、コンテナを起動する
 ```bash
 $ docker-compose up -d
