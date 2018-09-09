@@ -1,10 +1,13 @@
 PWSCUP2018 評価用docker環境
 ===
 
+## 注意
+- 正しい動作を保証するものではありませんが，コンテスト参加の手助けとなることを期待して公開します
+
 ## 使いかた
 
 ### 有用性・安全性評価
-1. ローカル環境で、dockerとdocker-composeを使えるようにする
+1. お手元の環境で、dockerとdocker-composeを使えるようにする
 2. 適当な場所で、本レポジトリをcloneする
 ```bash
 $ git clone https://github.com/gghatano/pwscup2018eval
@@ -33,6 +36,14 @@ $ git clone https://github.com/gghatano/pwscup2018eval
 $ bash ./check.bash
 ```
 5. 何も表示されなければ、フォーマットはOK。エラーがあれば、行・列番号が表示されるので、修正する
+
+### 評価環境をカスタマイズしたい場合
+1. dockerコンテナにログインする
+```
+docker-compose exec pwscup2018sample /bin/bash
+```
+
+2. /pwscup2018sample/drill/をカスタマイズする
 
 ## お問い合わせ
 pwscupadmin@pwscup.com
