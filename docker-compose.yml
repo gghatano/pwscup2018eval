@@ -2,7 +2,7 @@ version: '3'
 
 services:
  pwscup2018sample:
-  image: pwscupadmin/pwscup2018sample:0.7
+  image: pwscupadmin/pwscup2018sample:0.8
   volumes:
    - ./data:/pwscup2018sample/drill/data
   tty: true
