@@ -1,4 +1,4 @@
-PWSCUP2018 評価用docker環境
+PWSCUP2018 評価用docker環境 Ver. O.8
 ===
 
 ## 注意
