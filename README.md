@@ -5,7 +5,12 @@ PWSCUP2018 評価用docker環境 Ver. O.8
 
 ## 注意
 - 正しい動作を保証するものではありませんが，コンテスト参加の手助けとなることを期待して公開します
-
+- 環境を更新する際には、以下の手順で
+```bash
+$ docker-compose down
+$ git pull
+$ docker-compose up -d
+```
 ## 使いかた
 
 ### 有用性・安全性評価
